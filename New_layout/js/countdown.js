@@ -1,32 +1,16 @@
-var target_date = new Date().getTime() + (10000*3600*48); // set the countdown date
-var days, hours, minutes, seconds; // variables for time units
+const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
 
-var countdown = document.getElementById("tiles"); // get tag element
+let countDown = new Date('Feb 21, 2019 00:00:00').getTime(),
+    x = setInterval(function() {
 
-getCountdown();
+      let now = new Date().getTime(),
+          distance = countDown - now;
 
-setInterval(function () { getCountdown(); }, 1000);
-
-function getCountdown(){
-
-	// find the amount of "seconds" between now and target
-	var current_date = new Date().getTime();
-	var seconds_left = (target_date - current_date) / 1000;
-
-	days = pad( parseInt(seconds_left / 86400) );
-	seconds_left = seconds_left % 86400;
-		 
-	hours = pad( parseInt(seconds_left / 3600) );
-	seconds_left = seconds_left % 3600;
-		  
-	minutes = pad( parseInt(seconds_left / 60) );
-	seconds = pad( parseInt( seconds_left % 60 ) );
-
-	// format countdown string + set tag value
-	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
-}
-
-function pad(n) {
-	return (n < 10 ? '0' : '') + n;
-}
-
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+    }, second)
