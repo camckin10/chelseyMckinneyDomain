@@ -1,3 +1,22 @@
+/*header*/
+.header{
+	padding-left: 15px;
+	padding-right:10px;
+	margin-left: 10px;
+	margin-right:10px;
+	
+}
+
+.header-img{
+	height:117px;
+	width:115px;
+	border-radius:50%;
+	
+}
+
+
+
+/*current*/
 .container {
   color: #333;
   text-align: center;
@@ -19,3 +38,10 @@ li span {
   display: block;
   font-size: 4.5rem;
 }
+
+/*portfolio*/
+
+
+
+
+/*contact*/
