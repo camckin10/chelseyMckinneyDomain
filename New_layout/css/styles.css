@@ -17,6 +17,16 @@
 
 
 /*current*/
+/* .current{
+  padding-left: 10px;
+  text-align: center;
+} */
+
+.current-text{
+  padding-left: 10px;
+}
+
+
 .container {
   color: #333;
   text-align: center;
@@ -52,3 +62,6 @@ li span {
 
 
 /*contact*/
+.contact{
+  text-align: center;
+}
