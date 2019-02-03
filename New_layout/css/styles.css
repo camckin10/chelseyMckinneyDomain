@@ -40,8 +40,15 @@ li span {
 }
 
 /*portfolio*/
+.seshat-app, .jrdev-app,.token-app, .giphy-app,.jewel-app, .train-app{
+  height:55px;
+  width:65px;
+}
 
-
+.portfolio{
+  padding-left: 10px;
+  
+}
 
 
 /*contact*/
