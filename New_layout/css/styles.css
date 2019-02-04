@@ -1,9 +1,19 @@
+/*use dark pink and pale pink?*/
+/*alternate dark and light for each section*/
+
+body{
+  font-family: 'Neucha', cursive;
+  /*background-color: #E3A8ED;*/
+  /*pale pink F4D4E1*/
+}
+
 /*header*/
 .header{
 	padding-left: 15px;
 	padding-right:10px;
 	margin-left: 10px;
-	margin-right:10px;
+  margin-right:10px;
+   
 	
 }
 
@@ -17,13 +27,15 @@
 
 
 /*current*/
-/* .current{
-  padding-left: 10px;
-  text-align: center;
-} */
+.current{
+  /* padding-left: 10px;
+  text-align: center; */
+ 
+} 
 
 .current-text{
   padding-left: 10px;
+ 
 }
 
 
@@ -64,4 +76,8 @@ li span {
 /*contact*/
 .contact{
   text-align: center;
+}
+
+.social-media {
+  color:pink;
 }
