@@ -8,30 +8,33 @@ body{
 }
 
 /*header*/
-.header{
+#header{
 	padding-left: 15px;
-	padding-right:10px;
+  padding-right:10px;
+  padding-top:25px;
 	margin-left: 10px;
   margin-right:10px;
-   
+  background-color:#FCC2D2;
 	
 }
 
 .header-img{
 	height:117px;
 	width:115px;
-	border-radius:50%;
+  border-radius:50%;
+  padding-right:7px;
 	
 }
 
 
 
 /*current*/
-.current{
-  /* padding-left: 10px;
-  text-align: center; */
+#current{
+  /*padding-top: 10px;*/
+  background-color:#FCE8F0;
  
 } 
+
 
 .current-text{
   padding-left: 10px;
@@ -42,6 +45,7 @@ body{
 .container {
   color: #333;
   text-align: center;
+  background-color:#FCE8F0;
 }
 
 h1 {
@@ -67,17 +71,22 @@ li span {
   width:65px;
 }
 
-.portfolio{
+#portfolio{
   padding-left: 10px;
-  
+  background-color:#FCC2D2;
 }
 
 
 /*contact*/
-.contact{
+#contact{
   text-align: center;
+  background-color:#FCE8F0;
 }
 
-.social-media {
-  color:pink;
+.hi{
+  padding-top:30px;
+}
+
+.fab {
+  color:hotpink;
 }
