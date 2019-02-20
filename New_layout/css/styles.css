@@ -1,0 +1,104 @@
+/*use dark pink and pale pink?*/
+/*alternate dark and light for each section*/
+
+body{
+  font-family: 'Neucha', cursive;
+  /*background-color: #E3A8ED;*/
+  /*pale pink F4D4E1*/
+}
+
+/*header*/
+.name{
+  font-size: 79px;
+}
+
+h3{
+  margin-bottom: 0px !important;
+}
+
+#header{
+	padding-left: 15px;
+  padding-right:10px;
+  padding-top:25px;
+	margin-left: 10px;
+  margin-right:10px;
+  background-color:#FCC2D2;
+	
+}
+
+.header-img{
+	height:177px;
+	width:192px;
+  border-radius:50%;
+  padding-right:7px;
+	
+}
+
+
+
+/*current*/
+ul{
+  margin-bottom: 0px !important;
+}
+
+#current{
+  /*padding-top: 10px;*/
+  background-color:#FCE8F0;
+ 
+} 
+
+
+.current-text{
+  padding-left: 10px;
+ 
+}
+
+
+.container {
+  color: #333;
+  text-align: center;
+  background-color:#FCE8F0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+/*portfolio*/
+.seshat-app, .jrdev-app,.token-app, .giphy-app,.jewel-app, .train-app{
+  height:55px;
+  width:65px;
+}
+
+#portfolio{
+  padding-left: 10px;
+  background-color:#FCC2D2;
+}
+
+
+/*contact*/
+#contact{
+  text-align: center;
+  background-color:#FCE8F0;
+}
+
+.hi{
+  padding-top:30px;
+}
+
+.fab {
+  color:hotpink;
+}
